@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .contener{
+                  border: 2px solid red;
+                  margin: 3px 0px;
+                  background: cyan;
+                  padding: 4px;
+          }
+          .bg-color{
+    background: violet;
+}
+    </style>
+</head>
+<body>
+    <h1>Hello Word</h1>
+        <h2>Hello Word 2</h2>
+    <div id="firstcontener" class="contener">
+        <button id="click">Click me</button>
+        
+    </div>
+    <div class="contener">
+        <p>this is paragraph</p>
+    </div>
+    
+
+    <script>
+        //console.log("Hello Word");
+    // 1. Variables in Javascript 
+        // var value1=30;
+        // var value2=30;
+        //console.log(value1 + value2);
+
+    // 2. Datatypes in Javascript
+        // Number:
+        // var num1=999;
+        // var num2=33.3;
+    
+        //String:
+        // var str1="Ganesh";
+        // var str2="Yevle";
+
+        // Objects Key-Value Pair:
+        // var Marks = { Ravi:90, Ganesh:95, Sam:96};
+        //console.log(Marks)
+
+        //Booleans:
+        // var b1=true;
+        // var b2=false;
+        //console.log(b1,b2);
+
+        //Undefined:
+        // var und;
+        //console.log(und);
+
+        //null:
+        // var n=null;
+        //console.log(n);
+
+/*
+    At a very high Level, there are two data types in Javascript
+    1. Premitive Data Types: undefined,null,string,number,boolean, symbol.
+    2. Reference Data Types: array and objects.
+*/
+
+        // Arrays in JS:
+
+        // var arr1=[1,2,3,4,5]
+        //console.log(arr1);
+        
+//Operaters in JS
+        //Arithmatic Operaters: 
+        // var a=20;
+        // var b=30;
+        // console.log("Addition of two values is:",a+b); 
+        // console.log("Subtraction of two values is:",a-b); 
+        // console.log("Multiplication of two values is:",a*b); 
+        // console.log("Division of two values is:",a/b); 
+        // console.log("Percentage of two values is:",a%b); 
+        // console.log("Modules of two values is:",a^b); 
+
+        //Assignment Operaters:
+        //var c=b;
+        // console.log("c assigne b is:",c);
+        // console.log("Add 2:",c+=2,"sum 2:",c-=2,"Mul 2:",c*=2,"Divide 2:",c/=2);
+
+        //comparision Operaters:
+        //var c1=20;
+        //var c2=30;
+        // console.log(c1==c2);
+        // console.log(c1>=c2);
+        // console.log(c1<=c2);
+        // console.log(c1<c2);
+        // console.log(c1> c2);
+        
+        //Logical Operaters:
+         
+        // Logical and Operater:
+        // console.log(true && true);
+        // console.log(true && false);
+        // console.log(false && true);
+        // console.log(false && false);
+
+        // Logical or Operater:
+        // console.log(false || false);
+        // console.log(true || false);
+        // console.log(false || true);
+        // console.log(true || true);
+
+        //Logical not Operater:
+        // console.log(!false);
+        // console.log(!true);
+        // console.log(false ^ true);
+        // console.log(true ^ true);
+
+// function In JS
+    //    var a=20;
+    //    var b=20;
+    //    console.log(a+b);
+    //    console.log(a-b);
+
+    // function fun(a,b)
+    // {
+    //   c=(a+b);
+    //   return c;
+    // }   
+    // c1= fun(1,2);
+    // c2= fun(4,3);
+    // console.log(c1,c2);
+
+//Functions in JS
+    
+    // var age=81;
+    // if (age>82)
+    // {
+    //    console.log("You are elegible for Votting");
+    // }
+    // else if (age>83){
+    //     console.log("You are now 23 age");
+    // }
+    // else if(age<80)
+    // {
+    //     console.log("You are now 80")
+    // }
+    // else{
+    //     console.log("You are not elegible for Votting");
+    // }
+
+// For loop in JS
+    // var arr=[1,2,3,4,5];
+    // console.log(arr);
+
+    // for (var i=0;i<arr.length;i++)
+    // {
+    //     if(i==4){
+    //         break;
+    //     }
+    //     console.log(arr[i]);
+    // } 
+
+    // arr.forEach(function(Element)
+    // {
+    //     console.log(Element);
+    // })
+
+    //  let j=0;
+    // while(j<arr.length){
+    //     console.log(arr[j]);
+    //     j ++;
+    // }
+
+    // do{
+    //     console.log(arr[j]);
+    //  j ++;
+    // }
+    // while(j<arr.length){
+ 
+    // }
+
+//Array Metheds in JS
+    // myArry=['car','fan',600,null,true];
+    // console.log(myArry);
+    // console.log(myArry.length);
+    // //myArry.shift();
+    // //console.log(myArry);
+    // myArry.unshift();
+    // console.log(myArry);
+
+//String Metheds in JS
+    // let s="Ganesh is very good programmer";
+    // console.log(s);
+    // console.log(s.length);
+    // console.log(s.slice(0,4));
+    // console.log(s.indexOf("Ganesh"));
+    // console.log(s.lastIndexOf("good"));
+    // d=s.replace("Ganesh","Jitesh");
+    // console.log(s,d);
+    
+//Date in JS
+    // let d=new Date();
+    // console.log(d);
+    // console.log(d.getDate());
+    // console.log(d.getDay());
+    // console.log(d.getFullYear());
+    // console.log(d.getHours());
+    // console.log(d.getMilliseconds());
+    // console.log(d.getMinutes());
+    // console.log(d.getMonth());
+    // console.log(d.getTime());
+    // console.log(d.getSeconds());
+    // console.log(d.getTime());
+    // console.log(d.getTimezoneOffset());
+    // console.log(d.getUTCDate());
+    // console.log(d.getUTCDay());
+
+//DOM Manupuation
+
+let elem=document.getElementById('click');
+console.log(elem);
+
+let elemClass=document.getElementsByClassName("contener")
+console.log(elemClass);
+//elemClass[0].style.background='yellow';
+elemClass[0].classList.add('bg-color');
+   </script>
+</body>
+
+</html>

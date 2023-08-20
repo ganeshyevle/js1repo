@@ -1,0 +1,129 @@
+@import url(//db.onlinewebfonts.com/c/105007d99d9df64c50cc24d696d79555?family=Graphik+Web+Regular);
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'GraphikRegular', Menlo, Monaco, Consolas,
+  'Liberation Mono', 'Courier New', monospace, Oswald; ;
+}
+
+
+
+
+   /* Container div */
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 16px;
+            background-color: #f0f0f0;
+            border-bottom: 1px solid #ccc; /* Add a 2px solid border at the bottom */
+        }
+
+        /* CSS for the logo */
+        .logo {
+            width: 100px;
+            margin-left: 10px;
+        }
+        .logo img{
+          height: 30px;
+          
+        }
+
+        /* CSS for the navigation links */
+        .nav-links {
+            display: flex;
+            align-items: center;
+        }
+
+        .nav-links a {
+            color: #000;
+            text-decoration: none;
+            margin-left: 50px;
+            font-size: 18px;
+        }
+
+        /* CSS for the login link */
+        .log a {
+            color: #7c7777;
+            font-size: 18px;
+            padding: 5px 10px;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+
+/* Container div */
+.body1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+/* Left side elements (h1, p, and button) */
+.left-side {
+  flex: 1; /* Take all available space on the left */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.left-side h1 {
+  margin: 0;
+}
+
+.left-side p {
+  margin: 10px 0;
+}
+
+.left-side button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Right side (img) */
+.right-side img {
+  width: 50%; /* Adjust the image width as needed */
+  height: auto; /* Maintain aspect ratio */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hover-border h3
+{
+    margin: 270px;
+    border: 1px solid #004dff;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+    padding: 10px;
+    color: #004dff;
+}
+h3:hover{
+    background-color:  #004dff;
+    color: #ffffff;
+}
+  .arrow.right2:hover {
+    background-color: #004dff;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    color: #ffffff;
+  }
+  
